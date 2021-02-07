@@ -17,6 +17,8 @@ import { RouterModule } from '@angular/router';
 import { ForDirective } from './directives/for.directive';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { MatButtonModule } from '@angular/material/button';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { HttpClientModule } from '@angular/common/http'
 
 
 
@@ -41,7 +43,9 @@ import { MatButtonModule } from '@angular/material/button';
     MatCardModule,
     RouterModule,
     AppRoutingModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSnackBarModule,
+    HttpClientModule
 
 
   ],
